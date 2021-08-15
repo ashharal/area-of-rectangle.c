@@ -1,0 +1,26 @@
+/******************************************************************************
+
+Name :- Haral Ashwini
+Assignment No : 3
+ 3. WAP to calculate area of rectangle
+
+
+*******************************************************************************/
+#include<stdio.h>
+int main()
+{
+    int l, b, area;
+    
+    printf("enter the lenght and breadth of rectangle");
+    scanf("%d%d",&l,&b);
+    
+    area= l*b;
+    printf("area of rectangle = %d",area);
+    return 0;
+}
+
+/*enter the lenght and breadth of rectangle45
+89
+area of rectangle = 4005
+
+*/
